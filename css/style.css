@@ -451,7 +451,7 @@ height: 100px;
         width: 175vw;
     }
 }
-@media (min-width:1900px), (min-height:1200px){
+@media (min-width:1900px){
     #gallery_sec {
         width: 195vw;
     }
