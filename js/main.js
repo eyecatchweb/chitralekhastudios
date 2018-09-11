@@ -14,7 +14,7 @@ $(document).ready(function() {
 		var film=  $(this).find('.film');
 		play.animate({
 		top: '-20%'
-		}, "fast");
+		}, "slow");
 		film.animate({
 		top: '100%'
 		}, "slow");
@@ -25,11 +25,11 @@ $(document).ready(function() {
 		var play=  $(this).find('.play-icon');
 		var film=  $(this).find('.film');
 		play.animate({
-		top: '25%'
+		top: '20%'
 		}, "fast");
 		film.animate({
 		top: '60%'
-		}, "slow");
+		}, "fast");
 	});
 
 // Gets the video src from the data-src on each button
