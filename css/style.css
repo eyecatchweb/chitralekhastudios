@@ -394,7 +394,7 @@ body{
 
 .commercial:hover .commercial-img{
     opacity: 0.5;
-    transform: scale(1.15);
+    transform: scale(1.10);
 }
 
 
@@ -634,7 +634,7 @@ height: 100px;
 		
 	.commercial:hover .commercial-img{
     opacity: 0.5;
-    transform: scale(1.15);
+    transform: scale(1.05);
 	}
 	.col-xs-12.client{
 		width: 25%;
