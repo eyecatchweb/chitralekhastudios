@@ -162,6 +162,14 @@ body{
 	outline: 0;
 }
 
+.logoh{
+    height: 33px;
+}
+
+.logoheight{
+    height: 60px;
+}
+
 .main{
 	background-image: url("../images/h9-main-image.jpg");
     background-attachment: fixed;
