@@ -1,12 +1,4 @@
 $(document).ready(function() {
-if ($( document ).width() > 768)
-    {
-	$("html, body").mousewheel(function(event, delta) {
-        this.scrollLeft -= (delta * 40);
-        event.preventDefault();
-    });		
-	}
-	
 //menu mouseovr dropdown logic
 	$('.dropdown').on('mouseover', function(){
 		$(this).find('.dropdown-menu').show();
