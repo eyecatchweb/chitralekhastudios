@@ -273,7 +273,7 @@ body{
 }
 
 .showcase2{
-	background-color: rgba(255, 0, 0);
+	background-color: rgba(255, 0, 0, 1);
 	/* width: calc(100% - 30px); */
     /* height: calc(100% - 30px); */
 	width: 100%;
@@ -379,17 +379,17 @@ body{
 
 .client:hover {
     opacity: 0.5;
-	background:(255, 0 ,0, 0.5)	
+	background:rgba(255, 0 ,0, 0.5);
 }
 
 .client:hover .play-client{
     opacity: 0.9;
-	background:(255, 0 ,0, 0.9)
+	background:rgba(255, 0 ,0, 0.9);
 }
 
 .commercial:hover .play-comm{
     opacity: 0.5;
-	background:(255, 0 ,0, 0.5);
+	background:rgba(255, 0 ,0, 0.5);
 }
 
 .commercial:hover .commercial-img{
